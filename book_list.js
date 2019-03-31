@@ -14,7 +14,6 @@ $(document).ready(function() {
     ); 
 
     $("#web_images a, #java_images a, #net_images a, #database_images a").each(function() {
-        // get old and new urls
         var imageURL = $(this).attr("href");
 		
         var bookImage = new Image();
